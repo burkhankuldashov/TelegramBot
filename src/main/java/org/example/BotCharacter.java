@@ -91,6 +91,7 @@ public class BotCharacter extends TelegramLongPollingBot {
                 sendMessage.setReplyMarkup(replyKeyboardMarkup);
                 sendMessage.setChatId(update.getMessage().getChatId());
                 try {
+
                     execute(sendMessage);
                 } catch (TelegramApiException e) {
                     e.printStackTrace();
