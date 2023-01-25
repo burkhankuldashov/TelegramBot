@@ -24,12 +24,12 @@ import java.util.List;
 public class BotCharacter extends TelegramLongPollingBot {
     @Override
     public String getBotUsername() {
-        return "nonamekhan_bot";
+        return null;
     }
 
     @Override
     public String getBotToken() {
-        return "5821670690:AAFL3PsE38nVQ-5aA4-QtLqwUOPQ0SjmzxA";
+        return null;
     }
 
     static List<User> users = new ArrayList<>();

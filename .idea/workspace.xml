@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9675bfc9-ed89-4765-a0f4-2e7a73024422" name="Changes" comment="fixed">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Test.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/430c5785f8a8c4283b1eebb1a13a479d68be9b0d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BotCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BotCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BotStates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BotStates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GenerateQrCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GenerateQrCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GenerateQrCodeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GenerateQrCodeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/qrcode.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/qrcode.png" afterDir="false" />
-    </list>
+    <list default="true" id="9675bfc9-ed89-4765-a0f4-2e7a73024422" name="Changes" comment="bug Fixed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +95,7 @@
       <workItem from="1674532563558" duration="6822000" />
       <workItem from="1674540288343" duration="6908000" />
       <workItem from="1674547234963" duration="2597000" />
-      <workItem from="1674643943009" duration="6708000" />
+      <workItem from="1674643943009" duration="7079000" />
     </task>
     <task id="LOCAL-00001" summary="fixed">
       <created>1674547342475</created>
@@ -121,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674547505396</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="bug Fixed">
+      <created>1674651222514</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674651222515</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +126,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
+    <MESSAGE value="bug Fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug Fixed" />
   </component>
 </project>
