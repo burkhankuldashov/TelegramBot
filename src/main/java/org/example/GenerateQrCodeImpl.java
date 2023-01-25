@@ -5,6 +5,7 @@ import com.google.zxing.client.j2se.BufferedImageLuminanceSource;
 import com.google.zxing.client.j2se.MatrixToImageWriter;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.common.HybridBinarizer;
+import org.telegram.telegrambots.meta.api.objects.InputFile;
 
 import javax.imageio.ImageIO;
 import java.io.File;
@@ -18,9 +19,10 @@ public static GenerateQrCode getInstance(){
     return generateQrCode;
 }
     @Override
-    public void generateQRcode(String data, String path, String charset, Map map, int h, int w) throws IOException, WriterException {
+    public InputFile generateQRcode(String data, String path, String charset, Map map, int h, int w) throws IOException, WriterException {
         BitMatrix matrix = new MultiFormatWriter().encode(new String(data.getBytes(charset),charset), BarcodeFormat.QR_CODE,w,h);
         MatrixToImageWriter.writeToFile(matrix,path.substring(path.lastIndexOf(".") +1),new File(path));
+        return null;
     }
 
     @Override
